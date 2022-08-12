@@ -1,0 +1,371 @@
+[2022-05-01 23:10:11,637] {processor.py:153} INFO - Started process (PID=24302) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:10:11,637] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:10:11,637] {logging_mixin.py:115} INFO - [2022-05-01 23:10:11,637] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:10:11,662] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:10:11,824] {logging_mixin.py:115} INFO - [2022-05-01 23:10:11,824] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:10:11,896] {logging_mixin.py:115} INFO - [2022-05-01 23:10:11,896] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:10:12,111] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.477 seconds
+[2022-05-01 23:11:13,326] {processor.py:153} INFO - Started process (PID=24339) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:11:13,326] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:11:13,327] {logging_mixin.py:115} INFO - [2022-05-01 23:11:13,326] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:11:13,345] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:11:13,443] {logging_mixin.py:115} INFO - [2022-05-01 23:11:13,443] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:11:13,622] {logging_mixin.py:115} INFO - [2022-05-01 23:11:13,622] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:11:13,892] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.569 seconds
+[2022-05-01 23:12:11,742] {processor.py:153} INFO - Started process (PID=24376) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:12:11,742] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:12:11,743] {logging_mixin.py:115} INFO - [2022-05-01 23:12:11,743] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:12:11,753] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:12:11,830] {logging_mixin.py:115} INFO - [2022-05-01 23:12:11,830] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:12:11,911] {logging_mixin.py:115} INFO - [2022-05-01 23:12:11,911] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:12:12,121] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.382 seconds
+[2022-05-01 23:13:09,338] {processor.py:153} INFO - Started process (PID=24412) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:13:09,338] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:13:09,338] {logging_mixin.py:115} INFO - [2022-05-01 23:13:09,338] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:13:09,349] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:13:09,415] {logging_mixin.py:115} INFO - [2022-05-01 23:13:09,415] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:13:09,481] {logging_mixin.py:115} INFO - [2022-05-01 23:13:09,481] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:13:09,666] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.331 seconds
+[2022-05-01 23:14:08,158] {processor.py:153} INFO - Started process (PID=24448) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:14:08,158] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:14:08,158] {logging_mixin.py:115} INFO - [2022-05-01 23:14:08,158] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:14:08,168] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:14:08,232] {logging_mixin.py:115} INFO - [2022-05-01 23:14:08,232] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:14:08,303] {logging_mixin.py:115} INFO - [2022-05-01 23:14:08,303] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:14:08,492] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.337 seconds
+[2022-05-01 23:15:08,399] {processor.py:153} INFO - Started process (PID=24485) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:15:08,399] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:15:08,400] {logging_mixin.py:115} INFO - [2022-05-01 23:15:08,399] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:15:08,409] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:15:08,474] {logging_mixin.py:115} INFO - [2022-05-01 23:15:08,474] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:15:08,537] {logging_mixin.py:115} INFO - [2022-05-01 23:15:08,537] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:15:08,733] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.336 seconds
+[2022-05-01 23:16:04,500] {processor.py:153} INFO - Started process (PID=24521) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:16:04,501] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:16:04,501] {logging_mixin.py:115} INFO - [2022-05-01 23:16:04,501] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:16:04,511] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:16:04,585] {logging_mixin.py:115} INFO - [2022-05-01 23:16:04,585] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:16:04,663] {logging_mixin.py:115} INFO - [2022-05-01 23:16:04,663] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:16:04,847] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.349 seconds
+[2022-05-01 23:16:59,978] {processor.py:153} INFO - Started process (PID=24557) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:16:59,978] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:16:59,979] {logging_mixin.py:115} INFO - [2022-05-01 23:16:59,979] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:16:59,988] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:17:00,055] {logging_mixin.py:115} INFO - [2022-05-01 23:17:00,055] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:17:00,132] {logging_mixin.py:115} INFO - [2022-05-01 23:17:00,132] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:17:00,308] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.333 seconds
+[2022-05-01 23:17:56,422] {processor.py:153} INFO - Started process (PID=24598) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:17:56,422] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:17:56,422] {logging_mixin.py:115} INFO - [2022-05-01 23:17:56,422] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:17:56,433] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:17:56,500] {logging_mixin.py:115} INFO - [2022-05-01 23:17:56,499] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:17:56,579] {logging_mixin.py:115} INFO - [2022-05-01 23:17:56,579] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:17:56,755] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.335 seconds
+[2022-05-01 23:18:51,578] {processor.py:153} INFO - Started process (PID=24634) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:18:51,579] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:18:51,579] {logging_mixin.py:115} INFO - [2022-05-01 23:18:51,579] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:18:51,588] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:18:51,655] {logging_mixin.py:115} INFO - [2022-05-01 23:18:51,655] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:18:51,729] {logging_mixin.py:115} INFO - [2022-05-01 23:18:51,729] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:18:51,918] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.342 seconds
+[2022-05-01 23:19:50,436] {processor.py:153} INFO - Started process (PID=24671) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:19:50,436] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:19:50,437] {logging_mixin.py:115} INFO - [2022-05-01 23:19:50,436] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:19:50,446] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:19:50,516] {logging_mixin.py:115} INFO - [2022-05-01 23:19:50,516] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:19:50,591] {logging_mixin.py:115} INFO - [2022-05-01 23:19:50,591] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:19:50,788] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.355 seconds
+[2022-05-01 23:20:54,904] {processor.py:153} INFO - Started process (PID=24710) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:20:54,905] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:20:54,905] {logging_mixin.py:115} INFO - [2022-05-01 23:20:54,905] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:20:54,914] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:20:54,978] {logging_mixin.py:115} INFO - [2022-05-01 23:20:54,978] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:20:55,053] {logging_mixin.py:115} INFO - [2022-05-01 23:20:55,053] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:20:55,241] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.339 seconds
+[2022-05-01 23:21:52,798] {processor.py:153} INFO - Started process (PID=24747) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:21:52,798] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:21:52,798] {logging_mixin.py:115} INFO - [2022-05-01 23:21:52,798] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:21:52,808] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:21:52,877] {logging_mixin.py:115} INFO - [2022-05-01 23:21:52,877] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:21:52,952] {logging_mixin.py:115} INFO - [2022-05-01 23:21:52,952] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:21:53,139] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.344 seconds
+[2022-05-01 23:22:48,869] {processor.py:153} INFO - Started process (PID=24783) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:22:48,870] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:22:48,870] {logging_mixin.py:115} INFO - [2022-05-01 23:22:48,870] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:22:48,879] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:22:48,942] {logging_mixin.py:115} INFO - [2022-05-01 23:22:48,942] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:22:49,010] {logging_mixin.py:115} INFO - [2022-05-01 23:22:49,010] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:22:49,194] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.327 seconds
+[2022-05-01 23:23:46,240] {processor.py:153} INFO - Started process (PID=24820) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:23:46,240] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:23:46,240] {logging_mixin.py:115} INFO - [2022-05-01 23:23:46,240] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:23:46,250] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:23:46,315] {logging_mixin.py:115} INFO - [2022-05-01 23:23:46,314] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:23:46,391] {logging_mixin.py:115} INFO - [2022-05-01 23:23:46,391] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:23:46,577] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.340 seconds
+[2022-05-01 23:24:41,739] {processor.py:153} INFO - Started process (PID=24856) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:24:41,739] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:24:41,739] {logging_mixin.py:115} INFO - [2022-05-01 23:24:41,739] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:24:41,749] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:24:41,818] {logging_mixin.py:115} INFO - [2022-05-01 23:24:41,818] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:24:41,893] {logging_mixin.py:115} INFO - [2022-05-01 23:24:41,893] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:24:42,081] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.345 seconds
+[2022-05-01 23:25:41,539] {processor.py:153} INFO - Started process (PID=24893) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:25:41,539] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:25:41,539] {logging_mixin.py:115} INFO - [2022-05-01 23:25:41,539] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:25:41,549] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:25:41,619] {logging_mixin.py:115} INFO - [2022-05-01 23:25:41,619] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:25:41,688] {logging_mixin.py:115} INFO - [2022-05-01 23:25:41,688] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:25:41,882] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.346 seconds
+[2022-05-01 23:26:39,200] {processor.py:153} INFO - Started process (PID=24930) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:26:39,200] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:26:39,201] {logging_mixin.py:115} INFO - [2022-05-01 23:26:39,201] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:26:39,210] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:26:39,283] {logging_mixin.py:115} INFO - [2022-05-01 23:26:39,283] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:26:39,353] {logging_mixin.py:115} INFO - [2022-05-01 23:26:39,353] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:26:39,540] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.343 seconds
+[2022-05-01 23:27:30,917] {processor.py:153} INFO - Started process (PID=24965) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:27:30,918] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:27:30,918] {logging_mixin.py:115} INFO - [2022-05-01 23:27:30,918] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:27:30,928] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:27:30,995] {logging_mixin.py:115} INFO - [2022-05-01 23:27:30,995] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:27:31,072] {logging_mixin.py:115} INFO - [2022-05-01 23:27:31,072] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:27:31,258] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.343 seconds
+[2022-05-01 23:28:25,843] {processor.py:153} INFO - Started process (PID=25000) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:28:25,844] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:28:25,844] {logging_mixin.py:115} INFO - [2022-05-01 23:28:25,844] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:28:25,854] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:28:25,920] {logging_mixin.py:115} INFO - [2022-05-01 23:28:25,920] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:28:25,997] {logging_mixin.py:115} INFO - [2022-05-01 23:28:25,997] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:28:26,187] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.346 seconds
+[2022-05-01 23:29:25,055] {processor.py:153} INFO - Started process (PID=25037) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:29:25,055] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:29:25,056] {logging_mixin.py:115} INFO - [2022-05-01 23:29:25,056] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:29:25,066] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:29:25,138] {logging_mixin.py:115} INFO - [2022-05-01 23:29:25,138] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:29:25,207] {logging_mixin.py:115} INFO - [2022-05-01 23:29:25,207] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:29:25,393] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.340 seconds
+[2022-05-01 23:30:20,894] {processor.py:153} INFO - Started process (PID=25073) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:30:20,894] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:30:20,895] {logging_mixin.py:115} INFO - [2022-05-01 23:30:20,894] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:30:20,904] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:30:20,973] {logging_mixin.py:115} INFO - [2022-05-01 23:30:20,973] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:30:21,044] {logging_mixin.py:115} INFO - [2022-05-01 23:30:21,044] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:30:21,227] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.335 seconds
+[2022-05-01 23:31:20,624] {processor.py:153} INFO - Started process (PID=25109) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:31:20,624] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:31:20,624] {logging_mixin.py:115} INFO - [2022-05-01 23:31:20,624] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:31:20,634] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:31:20,700] {logging_mixin.py:115} INFO - [2022-05-01 23:31:20,700] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:31:20,771] {logging_mixin.py:115} INFO - [2022-05-01 23:31:20,771] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:31:20,958] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.337 seconds
+[2022-05-01 23:32:19,864] {processor.py:153} INFO - Started process (PID=25146) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:32:19,865] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:32:19,865] {logging_mixin.py:115} INFO - [2022-05-01 23:32:19,865] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:32:19,875] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:32:19,939] {logging_mixin.py:115} INFO - [2022-05-01 23:32:19,939] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:32:20,012] {logging_mixin.py:115} INFO - [2022-05-01 23:32:20,012] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:32:20,198] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.336 seconds
+[2022-05-01 23:33:18,807] {processor.py:153} INFO - Started process (PID=25183) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:33:18,807] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:33:18,808] {logging_mixin.py:115} INFO - [2022-05-01 23:33:18,808] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:33:18,817] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:33:18,881] {logging_mixin.py:115} INFO - [2022-05-01 23:33:18,880] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:33:18,955] {logging_mixin.py:115} INFO - [2022-05-01 23:33:18,954] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:33:19,141] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.336 seconds
+[2022-05-01 23:34:14,086] {processor.py:153} INFO - Started process (PID=25219) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:34:14,087] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:34:14,087] {logging_mixin.py:115} INFO - [2022-05-01 23:34:14,087] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:34:14,097] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:34:14,163] {logging_mixin.py:115} INFO - [2022-05-01 23:34:14,163] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:34:14,235] {logging_mixin.py:115} INFO - [2022-05-01 23:34:14,235] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:34:14,433] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.349 seconds
+[2022-05-01 23:35:13,609] {processor.py:153} INFO - Started process (PID=25259) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:35:13,610] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:35:13,610] {logging_mixin.py:115} INFO - [2022-05-01 23:35:13,610] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:35:13,630] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:35:13,718] {logging_mixin.py:115} INFO - [2022-05-01 23:35:13,718] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:35:13,809] {logging_mixin.py:115} INFO - [2022-05-01 23:35:13,809] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:35:14,074] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.467 seconds
+[2022-05-01 23:36:12,816] {processor.py:153} INFO - Started process (PID=25296) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:36:12,817] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:36:12,817] {logging_mixin.py:115} INFO - [2022-05-01 23:36:12,817] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:36:12,827] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:36:12,898] {logging_mixin.py:115} INFO - [2022-05-01 23:36:12,898] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:36:12,972] {logging_mixin.py:115} INFO - [2022-05-01 23:36:12,972] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:36:13,166] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.352 seconds
+[2022-05-01 23:37:10,580] {processor.py:153} INFO - Started process (PID=25332) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:37:10,580] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:37:10,581] {logging_mixin.py:115} INFO - [2022-05-01 23:37:10,581] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:37:10,590] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:37:10,659] {logging_mixin.py:115} INFO - [2022-05-01 23:37:10,659] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:37:10,734] {logging_mixin.py:115} INFO - [2022-05-01 23:37:10,734] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:37:10,929] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.351 seconds
+[2022-05-01 23:38:07,482] {processor.py:153} INFO - Started process (PID=25368) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:38:07,482] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:38:07,483] {logging_mixin.py:115} INFO - [2022-05-01 23:38:07,482] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:38:07,492] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:38:07,557] {logging_mixin.py:115} INFO - [2022-05-01 23:38:07,557] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:38:07,623] {logging_mixin.py:115} INFO - [2022-05-01 23:38:07,622] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:38:07,799] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.320 seconds
+[2022-05-01 23:39:00,166] {processor.py:153} INFO - Started process (PID=25404) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:39:00,167] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:39:00,167] {logging_mixin.py:115} INFO - [2022-05-01 23:39:00,167] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:39:00,176] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:39:00,242] {logging_mixin.py:115} INFO - [2022-05-01 23:39:00,242] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:39:00,309] {logging_mixin.py:115} INFO - [2022-05-01 23:39:00,309] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:39:00,493] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.330 seconds
+[2022-05-01 23:39:55,008] {processor.py:153} INFO - Started process (PID=25439) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:39:55,008] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:39:55,009] {logging_mixin.py:115} INFO - [2022-05-01 23:39:55,009] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:39:55,018] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:39:55,088] {logging_mixin.py:115} INFO - [2022-05-01 23:39:55,088] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:39:55,163] {logging_mixin.py:115} INFO - [2022-05-01 23:39:55,163] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:39:55,350] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.345 seconds
+[2022-05-01 23:40:28,518] {processor.py:153} INFO - Started process (PID=25460) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:40:28,518] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:40:28,518] {logging_mixin.py:115} INFO - [2022-05-01 23:40:28,518] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:40:28,528] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:40:28,595] {logging_mixin.py:115} INFO - [2022-05-01 23:40:28,595] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:40:28,670] {logging_mixin.py:115} INFO - [2022-05-01 23:40:28,669] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:40:28,853] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.338 seconds
+[2022-05-01 23:41:26,665] {processor.py:153} INFO - Started process (PID=25497) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:41:26,666] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:41:26,666] {logging_mixin.py:115} INFO - [2022-05-01 23:41:26,666] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:41:26,676] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:41:26,742] {logging_mixin.py:115} INFO - [2022-05-01 23:41:26,742] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:41:26,813] {logging_mixin.py:115} INFO - [2022-05-01 23:41:26,813] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:41:26,994] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.331 seconds
+[2022-05-01 23:42:30,547] {processor.py:153} INFO - Started process (PID=25536) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:42:30,548] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:42:30,548] {logging_mixin.py:115} INFO - [2022-05-01 23:42:30,548] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:42:30,558] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:42:30,626] {logging_mixin.py:115} INFO - [2022-05-01 23:42:30,626] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:42:30,699] {logging_mixin.py:115} INFO - [2022-05-01 23:42:30,699] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:42:30,889] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.344 seconds
+[2022-05-01 23:43:29,096] {processor.py:153} INFO - Started process (PID=25573) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:43:29,097] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:43:29,097] {logging_mixin.py:115} INFO - [2022-05-01 23:43:29,097] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:43:29,107] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:43:29,171] {logging_mixin.py:115} INFO - [2022-05-01 23:43:29,171] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:43:29,242] {logging_mixin.py:115} INFO - [2022-05-01 23:43:29,242] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:43:29,425] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.331 seconds
+[2022-05-01 23:44:24,143] {processor.py:153} INFO - Started process (PID=25608) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:44:24,144] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:44:24,144] {logging_mixin.py:115} INFO - [2022-05-01 23:44:24,144] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:44:24,154] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:44:24,220] {logging_mixin.py:115} INFO - [2022-05-01 23:44:24,220] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:44:24,293] {logging_mixin.py:115} INFO - [2022-05-01 23:44:24,293] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:44:24,477] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.336 seconds
+[2022-05-01 23:45:23,074] {processor.py:153} INFO - Started process (PID=25645) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:45:23,074] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:45:23,074] {logging_mixin.py:115} INFO - [2022-05-01 23:45:23,074] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:45:23,083] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:45:23,149] {logging_mixin.py:115} INFO - [2022-05-01 23:45:23,149] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:45:23,220] {logging_mixin.py:115} INFO - [2022-05-01 23:45:23,220] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:45:23,408] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.337 seconds
+[2022-05-01 23:46:21,360] {processor.py:153} INFO - Started process (PID=25681) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:46:21,360] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:46:21,361] {logging_mixin.py:115} INFO - [2022-05-01 23:46:21,361] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:46:21,370] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:46:21,437] {logging_mixin.py:115} INFO - [2022-05-01 23:46:21,437] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:46:21,514] {logging_mixin.py:115} INFO - [2022-05-01 23:46:21,514] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:46:21,718] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.361 seconds
+[2022-05-01 23:47:17,278] {processor.py:153} INFO - Started process (PID=25717) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:47:17,278] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:47:17,279] {logging_mixin.py:115} INFO - [2022-05-01 23:47:17,279] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:47:17,288] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:47:17,354] {logging_mixin.py:115} INFO - [2022-05-01 23:47:17,353] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:47:17,423] {logging_mixin.py:115} INFO - [2022-05-01 23:47:17,423] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:47:17,609] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.333 seconds
+[2022-05-01 23:48:12,691] {processor.py:153} INFO - Started process (PID=25773) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:48:12,692] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:48:12,692] {logging_mixin.py:115} INFO - [2022-05-01 23:48:12,692] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:48:12,701] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:48:12,763] {logging_mixin.py:115} INFO - [2022-05-01 23:48:12,763] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:48:12,831] {logging_mixin.py:115} INFO - [2022-05-01 23:48:12,831] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:48:13,008] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.320 seconds
+[2022-05-01 23:49:07,305] {processor.py:153} INFO - Started process (PID=25808) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:49:07,306] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:49:07,306] {logging_mixin.py:115} INFO - [2022-05-01 23:49:07,306] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:49:07,316] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:49:07,381] {logging_mixin.py:115} INFO - [2022-05-01 23:49:07,381] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:49:07,455] {logging_mixin.py:115} INFO - [2022-05-01 23:49:07,454] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:49:07,637] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.334 seconds
+[2022-05-01 23:50:02,275] {processor.py:153} INFO - Started process (PID=25847) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:50:02,276] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:50:02,276] {logging_mixin.py:115} INFO - [2022-05-01 23:50:02,276] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:50:02,285] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:50:02,350] {logging_mixin.py:115} INFO - [2022-05-01 23:50:02,350] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:50:02,423] {logging_mixin.py:115} INFO - [2022-05-01 23:50:02,422] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:50:02,611] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.338 seconds
+[2022-05-01 23:51:02,957] {processor.py:153} INFO - Started process (PID=25884) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:51:02,958] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:51:02,958] {logging_mixin.py:115} INFO - [2022-05-01 23:51:02,958] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:51:02,968] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:51:03,034] {logging_mixin.py:115} INFO - [2022-05-01 23:51:03,033] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:51:03,106] {logging_mixin.py:115} INFO - [2022-05-01 23:51:03,106] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:51:03,289] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.334 seconds
+[2022-05-01 23:52:02,838] {processor.py:153} INFO - Started process (PID=25921) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:52:02,839] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:52:02,839] {logging_mixin.py:115} INFO - [2022-05-01 23:52:02,839] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:52:02,849] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:52:02,916] {logging_mixin.py:115} INFO - [2022-05-01 23:52:02,916] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:52:02,989] {logging_mixin.py:115} INFO - [2022-05-01 23:52:02,989] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:52:03,175] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.339 seconds
+[2022-05-01 23:53:00,684] {processor.py:153} INFO - Started process (PID=25958) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:53:00,684] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:53:00,685] {logging_mixin.py:115} INFO - [2022-05-01 23:53:00,685] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:53:00,695] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:53:00,761] {logging_mixin.py:115} INFO - [2022-05-01 23:53:00,761] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:53:00,832] {logging_mixin.py:115} INFO - [2022-05-01 23:53:00,832] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:53:01,015] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.333 seconds
+[2022-05-01 23:53:56,718] {processor.py:153} INFO - Started process (PID=25994) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:53:56,718] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:53:56,719] {logging_mixin.py:115} INFO - [2022-05-01 23:53:56,719] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:53:56,728] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:53:56,794] {logging_mixin.py:115} INFO - [2022-05-01 23:53:56,794] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:53:56,867] {logging_mixin.py:115} INFO - [2022-05-01 23:53:56,867] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:53:57,045] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.329 seconds
+[2022-05-01 23:54:49,794] {processor.py:153} INFO - Started process (PID=26029) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:54:49,795] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:54:49,795] {logging_mixin.py:115} INFO - [2022-05-01 23:54:49,795] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:54:49,804] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:54:49,870] {logging_mixin.py:115} INFO - [2022-05-01 23:54:49,870] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:54:49,945] {logging_mixin.py:115} INFO - [2022-05-01 23:54:49,945] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:54:50,131] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.339 seconds
+[2022-05-01 23:55:42,897] {processor.py:153} INFO - Started process (PID=26063) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:55:42,897] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:55:42,898] {logging_mixin.py:115} INFO - [2022-05-01 23:55:42,898] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:55:42,907] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:55:42,974] {logging_mixin.py:115} INFO - [2022-05-01 23:55:42,974] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:55:43,051] {logging_mixin.py:115} INFO - [2022-05-01 23:55:43,051] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:55:43,246] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.352 seconds
+[2022-05-01 23:56:34,382] {processor.py:153} INFO - Started process (PID=26098) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:56:34,382] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:56:34,382] {logging_mixin.py:115} INFO - [2022-05-01 23:56:34,382] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:56:34,392] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:56:34,460] {logging_mixin.py:115} INFO - [2022-05-01 23:56:34,460] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:56:34,536] {logging_mixin.py:115} INFO - [2022-05-01 23:56:34,535] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:56:34,722] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.343 seconds
+[2022-05-01 23:57:26,327] {processor.py:153} INFO - Started process (PID=26132) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:57:26,327] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:57:26,328] {logging_mixin.py:115} INFO - [2022-05-01 23:57:26,328] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:57:26,337] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:57:26,400] {logging_mixin.py:115} INFO - [2022-05-01 23:57:26,400] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:57:26,484] {logging_mixin.py:115} INFO - [2022-05-01 23:57:26,484] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:57:26,669] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.344 seconds
+[2022-05-01 23:58:17,915] {processor.py:153} INFO - Started process (PID=26166) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:58:17,915] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:58:17,916] {logging_mixin.py:115} INFO - [2022-05-01 23:58:17,916] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:58:17,925] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:58:17,990] {logging_mixin.py:115} INFO - [2022-05-01 23:58:17,990] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:58:18,061] {logging_mixin.py:115} INFO - [2022-05-01 23:58:18,061] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:58:18,246] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.333 seconds
+[2022-05-01 23:59:09,818] {processor.py:153} INFO - Started process (PID=26200) to work on /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:59:09,818] {processor.py:641} INFO - Processing file /project/airflow_home/dags/dummy_dag.py for tasks to queue
+[2022-05-01 23:59:09,818] {logging_mixin.py:115} INFO - [2022-05-01 23:59:09,818] {dagbag.py:507} INFO - Filling up the DagBag from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:59:09,828] {processor.py:651} INFO - DAG(s) dict_keys(['hello_world_dag_lmao']) retrieved from /project/airflow_home/dags/dummy_dag.py
+[2022-05-01 23:59:09,894] {logging_mixin.py:115} INFO - [2022-05-01 23:59:09,894] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-01 23:59:09,970] {logging_mixin.py:115} INFO - [2022-05-01 23:59:09,970] {dag.py:2915} INFO - Setting next_dagrun for hello_world_dag_lmao to 2022-05-01T22:00:00+00:00, run_after=2022-05-01T23:00:00+00:00
+[2022-05-01 23:59:10,154] {processor.py:161} INFO - Processing /project/airflow_home/dags/dummy_dag.py took 0.339 seconds

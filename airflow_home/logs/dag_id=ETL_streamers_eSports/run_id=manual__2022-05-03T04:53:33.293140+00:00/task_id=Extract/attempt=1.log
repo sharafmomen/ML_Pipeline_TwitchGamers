@@ -1,0 +1,65 @@
+[2022-05-03 04:53:38,873] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: ETL_streamers_eSports.Extract manual__2022-05-03T04:53:33.293140+00:00 [queued]>
+[2022-05-03 04:53:38,957] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: ETL_streamers_eSports.Extract manual__2022-05-03T04:53:33.293140+00:00 [queued]>
+[2022-05-03 04:53:38,957] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-03 04:53:38,957] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-03 04:53:38,957] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-03 04:53:39,073] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Extract> on 2022-05-03 04:53:33.293140+00:00
+[2022-05-03 04:53:39,078] {standard_task_runner.py:52} INFO - Started process 27347 to run task
+[2022-05-03 04:53:39,081] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_streamers_eSports', 'Extract', 'manual__2022-05-03T04:53:33.293140+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmps1d3g3o4', '--error-file', '/tmp/tmp339fz7ul']
+[2022-05-03 04:53:39,082] {standard_task_runner.py:80} INFO - Job 24: Subtask Extract
+[2022-05-03 04:53:39,419] {task_command.py:369} INFO - Running <TaskInstance: ETL_streamers_eSports.Extract manual__2022-05-03T04:53:33.293140+00:00 [running]> on host cube-14ce9f9c-b3e2-4031-af90-157b53c1fe85-669c6656fd-gv56j
+[2022-05-03 04:53:39,905] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ETL_streamers_eSports
+AIRFLOW_CTX_TASK_ID=Extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-03T04:53:33.293140+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-03T04:53:33.293140+00:00
+[2022-05-03 04:53:40,416] {logging_mixin.py:115} INFO - Total number of players in EU server:  103
+[2022-05-03 04:55:06,041] {Limits.py:87} INFO - rate limit changed from 0/0s to 20/1s
+[2022-05-03 04:55:06,041] {Limits.py:87} INFO - rate limit changed from 0/0s to 100/120s
+[2022-05-03 04:55:06,041] {Limits.py:87} INFO - rate limit changed from 0/0s to 2000/60s
+[2022-05-03 04:55:27,708] {Limits.py:87} INFO - rate limit changed from 0/0s to 20/1s
+[2022-05-03 04:55:27,709] {Limits.py:87} INFO - rate limit changed from 0/0s to 100/120s
+[2022-05-03 04:55:27,709] {Limits.py:87} INFO - rate limit changed from 0/0s to 500/10s
+[2022-05-03 04:55:27,995] {Limits.py:87} INFO - rate limit changed from 0/0s to 20/1s
+[2022-05-03 04:55:27,995] {Limits.py:87} INFO - rate limit changed from 0/0s to 100/120s
+[2022-05-03 04:55:27,995] {Limits.py:87} INFO - rate limit changed from 0/0s to 250/10s
+[2022-05-03 04:55:28,144] {Limits.py:87} INFO - rate limit changed from 0/0s to 250/10s
+[2022-05-03 04:57:25,491] {OopsRateLimiter.py:41} INFO - hit 429 from "application" limit! retrying after 3 seconds
+[2022-05-03 04:57:25,492] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/riotwatcher/Handlers/ThrowOnErrorHandler.py", line 18, in after_request
+    response.raise_for_status()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://europe.api.riotgames.com/lol/match/v5/matches/EUW1_5853535900
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/project/airflow_home/dags/etl_dag.py", line 51, in extract
+    warding_df, kd_df, scores10_df, match_info_df, player_match_df, chosen_champion_df = extract_funcs.match_statistics(puuid_frame, 1)
+  File "/project/airflow_home/dags/custom_package/extract_funcs.py", line 256, in match_statistics
+    temp3 = lol_watcher.match.by_id('Europe', match_id)['info'] # Calling on another API endpoint (rate limit applies)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/riotwatcher/_apis/helpers.py", line 32, in remapper
+    return api_call(*nargs, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/riotwatcher/_apis/league_of_legends/MatchApiV5.py", line 32, in by_id
+    return self._request_endpoint(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/riotwatcher/_apis/NamedEndpoint.py", line 36, in _request_endpoint
+    return self._base_api.raw_request(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/riotwatcher/_apis/BaseApi.py", line 51, in raw_request
+    mod = handler.after_request(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/riotwatcher/Handlers/ThrowOnErrorHandler.py", line 20, in after_request
+    raise ApiError(*err.args, request=err.request, response=err.response)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://europe.api.riotgames.com/lol/match/v5/matches/EUW1_5853535900
+[2022-05-03 04:57:25,538] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=ETL_streamers_eSports, task_id=Extract, execution_date=20220503T045333, start_date=20220503T045338, end_date=20220503T045725
+[2022-05-03 04:57:25,668] {standard_task_runner.py:92} ERROR - Failed to execute job 24 for task Extract (429 Client Error: Too Many Requests for url: https://europe.api.riotgames.com/lol/match/v5/matches/EUW1_5853535900; 27347)
+[2022-05-03 04:57:25,729] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-05-03 04:57:25,962] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

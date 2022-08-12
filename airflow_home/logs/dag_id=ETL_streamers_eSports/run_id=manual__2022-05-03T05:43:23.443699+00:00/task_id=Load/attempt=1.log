@@ -1,0 +1,24 @@
+[2022-05-03 05:50:47,994] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: ETL_streamers_eSports.Load manual__2022-05-03T05:43:23.443699+00:00 [queued]>
+[2022-05-03 05:50:48,065] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: ETL_streamers_eSports.Load manual__2022-05-03T05:43:23.443699+00:00 [queued]>
+[2022-05-03 05:50:48,065] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-03 05:50:48,065] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-03 05:50:48,065] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-03 05:50:48,189] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Load> on 2022-05-03 05:43:23.443699+00:00
+[2022-05-03 05:50:48,193] {standard_task_runner.py:52} INFO - Started process 30521 to run task
+[2022-05-03 05:50:48,197] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_streamers_eSports', 'Load', 'manual__2022-05-03T05:43:23.443699+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpodovt274', '--error-file', '/tmp/tmp5lmo9gg5']
+[2022-05-03 05:50:48,198] {standard_task_runner.py:80} INFO - Job 33: Subtask Load
+[2022-05-03 05:50:48,507] {task_command.py:369} INFO - Running <TaskInstance: ETL_streamers_eSports.Load manual__2022-05-03T05:43:23.443699+00:00 [running]> on host cube-14ce9f9c-b3e2-4031-af90-157b53c1fe85-669c6656fd-gv56j
+[2022-05-03 05:50:48,999] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ETL_streamers_eSports
+AIRFLOW_CTX_TASK_ID=Load
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-03T05:43:23.443699+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-03T05:43:23.443699+00:00
+[2022-05-03 05:51:43,162] {logging_mixin.py:115} INFO - Done populating
+[2022-05-03 05:51:46,913] {python.py:173} INFO - Done. Returned value was: None
+[2022-05-03 05:51:46,966] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=ETL_streamers_eSports, task_id=Load, execution_date=20220503T054323, start_date=20220503T055047, end_date=20220503T055146
+[2022-05-03 05:51:47,115] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-05-03 05:51:47,343] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

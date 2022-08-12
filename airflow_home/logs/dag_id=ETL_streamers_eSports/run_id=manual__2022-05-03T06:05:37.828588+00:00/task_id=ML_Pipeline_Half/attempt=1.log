@@ -1,0 +1,295 @@
+[2022-05-03 06:14:09,449] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: ETL_streamers_eSports.ML_Pipeline_Half manual__2022-05-03T06:05:37.828588+00:00 [queued]>
+[2022-05-03 06:14:09,529] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: ETL_streamers_eSports.ML_Pipeline_Half manual__2022-05-03T06:05:37.828588+00:00 [queued]>
+[2022-05-03 06:14:09,529] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-03 06:14:09,529] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-03 06:14:09,529] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-03 06:14:09,654] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): ML_Pipeline_Half> on 2022-05-03 06:05:37.828588+00:00
+[2022-05-03 06:14:09,659] {standard_task_runner.py:52} INFO - Started process 32180 to run task
+[2022-05-03 06:14:09,662] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_streamers_eSports', 'ML_Pipeline_Half', 'manual__2022-05-03T06:05:37.828588+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpho3stlvr', '--error-file', '/tmp/tmpe6bz6wx1']
+[2022-05-03 06:14:09,663] {standard_task_runner.py:80} INFO - Job 38: Subtask ML_Pipeline_Half
+[2022-05-03 06:14:09,977] {task_command.py:369} INFO - Running <TaskInstance: ETL_streamers_eSports.ML_Pipeline_Half manual__2022-05-03T06:05:37.828588+00:00 [running]> on host cube-14ce9f9c-b3e2-4031-af90-157b53c1fe85-669c6656fd-gv56j
+[2022-05-03 06:14:10,700] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=ETL_streamers_eSports
+AIRFLOW_CTX_TASK_ID=ML_Pipeline_Half
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-03T06:05:37.828588+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-03T06:05:37.828588+00:00
+[2022-05-03 06:14:10,736] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:792 RuntimeWarning: divide by zero encountered in double_scalars
+[2022-05-03 06:14:10,737] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:305 RuntimeWarning: invalid value encountered in double_scalars
+[2022-05-03 06:14:10,747] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:610 FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 1406, in fit
+    fold_coefs_ = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 798, in _logistic_regression_path
+    w0, n_iter_i, warm_start_sag = sag_solver(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_sag.py", line 310, in sag_solver
+    num_seen, n_iter_ = sag(dataset, coef_init,
+  File "sklearn/linear_model/_sag_fast.pyx", line 620, in sklearn.linear_model._sag_fast.sag64
+ValueError: Floating-point under-/overflow occurred at epoch #1. Scaling input data with StandardScaler or MinMaxScaler might help.
+[2022-05-03 06:14:10,752] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:792 RuntimeWarning: divide by zero encountered in double_scalars
+[2022-05-03 06:14:10,753] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:305 RuntimeWarning: invalid value encountered in double_scalars
+[2022-05-03 06:14:10,757] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:610 FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 1406, in fit
+    fold_coefs_ = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 798, in _logistic_regression_path
+    w0, n_iter_i, warm_start_sag = sag_solver(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_sag.py", line 310, in sag_solver
+    num_seen, n_iter_ = sag(dataset, coef_init,
+  File "sklearn/linear_model/_sag_fast.pyx", line 620, in sklearn.linear_model._sag_fast.sag64
+ValueError: Floating-point under-/overflow occurred at epoch #1. Scaling input data with StandardScaler or MinMaxScaler might help.
+[2022-05-03 06:14:10,762] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:792 RuntimeWarning: divide by zero encountered in double_scalars
+[2022-05-03 06:14:10,763] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_sag.py:305 RuntimeWarning: invalid value encountered in double_scalars
+[2022-05-03 06:14:10,767] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:610 FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 1406, in fit
+    fold_coefs_ = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 798, in _logistic_regression_path
+    w0, n_iter_i, warm_start_sag = sag_solver(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_sag.py", line 310, in sag_solver
+    num_seen, n_iter_ = sag(dataset, coef_init,
+  File "sklearn/linear_model/_sag_fast.pyx", line 620, in sklearn.linear_model._sag_fast.sag64
+ValueError: Floating-point under-/overflow occurred at epoch #1. Scaling input data with StandardScaler or MinMaxScaler might help.
+[2022-05-03 06:14:10,950] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:760 RuntimeWarning: divide by zero encountered in double_scalars
+[2022-05-03 06:14:10,951] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:123 RuntimeWarning: invalid value encountered in double_scalars
+[2022-05-03 06:14:10,952] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:128 RuntimeWarning: invalid value encountered in multiply
+[2022-05-03 06:14:10,966] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:610 FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 1406, in fit
+    fold_coefs_ = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 758, in _logistic_regression_path
+    opt_res = optimize.minimize(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_minimize.py", line 619, in minimize
+    return _minimize_lbfgsb(fun, x0, args, jac, bounds,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/lbfgsb.py", line 360, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 260, in fun_and_grad
+    self._update_fun()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/optimize.py", line 74, in __call__
+    self._compute_if_needed(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/optimize.py", line 68, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 123, in _logistic_loss_and_grad
+    out = -np.sum(sample_weight * log_logistic(yz)) + .5 * alpha * np.dot(w, w)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/extmath.py", line 581, in log_logistic
+    X = check_array(X, dtype=np.float64)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 663, in check_array
+    _assert_all_finite(array,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 103, in _assert_all_finite
+    raise ValueError(
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[2022-05-03 06:14:10,972] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:760 RuntimeWarning: divide by zero encountered in double_scalars
+[2022-05-03 06:14:10,973] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:123 RuntimeWarning: invalid value encountered in double_scalars
+[2022-05-03 06:14:10,974] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:128 RuntimeWarning: invalid value encountered in multiply
+[2022-05-03 06:14:10,981] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:610 FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 1406, in fit
+    fold_coefs_ = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 758, in _logistic_regression_path
+    opt_res = optimize.minimize(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_minimize.py", line 619, in minimize
+    return _minimize_lbfgsb(fun, x0, args, jac, bounds,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/lbfgsb.py", line 360, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 260, in fun_and_grad
+    self._update_fun()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/optimize.py", line 74, in __call__
+    self._compute_if_needed(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/optimize.py", line 68, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 123, in _logistic_loss_and_grad
+    out = -np.sum(sample_weight * log_logistic(yz)) + .5 * alpha * np.dot(w, w)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/extmath.py", line 581, in log_logistic
+    X = check_array(X, dtype=np.float64)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 663, in check_array
+    _assert_all_finite(array,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 103, in _assert_all_finite
+    raise ValueError(
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[2022-05-03 06:14:10,987] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:760 RuntimeWarning: divide by zero encountered in double_scalars
+[2022-05-03 06:14:10,988] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:123 RuntimeWarning: invalid value encountered in double_scalars
+[2022-05-03 06:14:10,989] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:128 RuntimeWarning: invalid value encountered in multiply
+[2022-05-03 06:14:10,996] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:610 FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 1406, in fit
+    fold_coefs_ = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 758, in _logistic_regression_path
+    opt_res = optimize.minimize(
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_minimize.py", line 619, in minimize
+    return _minimize_lbfgsb(fun, x0, args, jac, bounds,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/lbfgsb.py", line 360, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 260, in fun_and_grad
+    self._update_fun()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/optimize.py", line 74, in __call__
+    self._compute_if_needed(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/scipy/optimize/optimize.py", line 68, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py", line 123, in _logistic_loss_and_grad
+    out = -np.sum(sample_weight * log_logistic(yz)) + .5 * alpha * np.dot(w, w)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/extmath.py", line 581, in log_logistic
+    X = check_array(X, dtype=np.float64)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 663, in check_array
+    _assert_all_finite(array,
+  File "/opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/utils/validation.py", line 103, in _assert_all_finite
+    raise ValueError(
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[2022-05-03 06:14:11,048] {logging_mixin.py:115} WARNING - /opt/anaconda/envs/Python3/lib/python3.8/site-packages/sklearn/model_selection/_search.py:918 UserWarning: One or more of the test scores are non-finite: [       nan 0.63688689 0.62787788 0.63688689 0.63688689 0.62787788
+ 0.6006006         nan 0.63688689 0.63688689]
+[2022-05-03 06:14:11,082] {python.py:173} INFO - Done. Returned value was: None
+[2022-05-03 06:14:11,155] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=ETL_streamers_eSports, task_id=ML_Pipeline_Half, execution_date=20220503T060537, start_date=20220503T061409, end_date=20220503T061411
+[2022-05-03 06:14:11,316] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-05-03 06:14:11,474] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
