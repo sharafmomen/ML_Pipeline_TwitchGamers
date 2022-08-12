@@ -1,2 +1,5 @@
 *.csv
 *.parquet
+*.pid
+*.db
+etl_files_exp/**
