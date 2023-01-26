@@ -64,12 +64,21 @@ Psycopg2 was used to load the transformations into Postgres. It first made sure 
   <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/create_tables.png" width="600">
 </p>
 
+## ML Pipeline
 
 <p align="center">
   <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="600">
 </p>
+The above DAG graph captures the extension on top of the ETL pipeline made. With each DAG run, the model will update, however, we can see the performance prior to approving the new model's deployment - this last portion of the process is made manual for contingency purposes. We considered using PySpark's MLlib library to do the distributed training, should we want to scale the data we ingest. The issue is that it is difficult to serve such models without proper Java implementation, and without starting up a spark instance to turn the request into a Spark Data Frame before predicting on it. Hence, we move on with Scikit-learn. 
 
+The deployment process is done separately from the entire ETL and half of the ML pipeline. Faculty AI makes it easy for you, as their deployment process is specifically made for flask applications. The Faculty Deployment interface also provides you the chance to play with the API and the flask app before deployment on a testing terminal. Lastly, after deployment, we test the API by using a curl bash command:
 <p align="center">
   <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/curl_request.png" width="500">
 </p>
 
+It's a success! However, I did take note of some improvements we could make. 
+1. Celery executor can help with simultaneously getting tasks of an Airflow DAG done. 
+2. Using a Developer's API key instead of a personal one to bypass Riot API's very limiting rate limits. 
+3. Making use of MLeap to deploying PySpark Models, which would help with the distributed process more to cater to future scalability. 
+4. Making using of neptune.ai and MLflow to automate detecting data drift. 
+5. Using aynchronous functions rather than multiprocessing, as most of the early load of the ETL pipeline is waiting for a request to finish processing. 
