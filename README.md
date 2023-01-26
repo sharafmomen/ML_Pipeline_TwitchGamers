@@ -16,7 +16,8 @@ The tools we use in this project are:
 In this project, we have approximately 5 python scripts, of which one holds the DAG that Airflow can read. 3 other python scripts host the functions necessary for ETL, which the DAG script imports and makes use of. Only port 8888 can be used to host an app, which is Airflow. Jupyter must be closed, and this is what Faculty allows. The following represents a snippet of our code defining our ETL DAG and some functions encased in a Python Operator:
 
 ```python
-with DAG('ETL_streamers_eSports', default_args={'retries': 0}, description="ETL for streamers' games", schedule_interval='@hourly', start_date=pendulum.datetime(2022, 4, 20, tz="UTC"), catchup=False, tags=['streamers_lol_etl']) as dag:
+with DAG('ETL_streamers_eSports', default_args={'retries': 0}, description="ETL for streamers' games", schedule_interval='@hourly', 
+  start_date=pendulum.datetime(2022, 4, 20, tz="UTC"), catchup=False, tags=['streamers_lol_etl']) as dag:
     
     t1 = PythonOperator(
         task_id='Extract',
