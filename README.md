@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL_Pipeline_for_Pro_Players_on_League_of_Legends_%F0%9F%8E%AE_.png" width="900">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL_Pipeline_for_Pro_Players_on_League_of_Legends_%F0%9F%8E%AE_.png" width="1000">
 </p>
 
 # LeagueOfLegends_Pipeline
@@ -52,32 +52,18 @@ Given that Riot Games has given access to their data through an API, we will mak
 ## ETL Pipeline
 
 <p align="center">
-  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL.png" width="300">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL.png" width="500">
 </p>
 
 <p align="center">
-  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/create_tables.png" width="300">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/create_tables.png" width="600">
 </p>
 
 <p align="center">
-  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="300">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="500">
 </p>
 
 <p align="center">
-  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/curl_request.png" width="300">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/curl_request.png" width="500">
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
