@@ -51,13 +51,19 @@ Given that Riot Games has given access to their data through an API, we will mak
 
 ## ETL Pipeline
 
+The following Airflow diagram captures the ETL portion of the project. 
 <p align="center">
   <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL.png" width="500">
 </p>
+While collecting data on streamers from Track The Pros and finding their gameplay information through the Riot API, we first look for the number of cores on the server hosting the application. Then we divide the load onto multiple processors using multiprocessing in order to quicken the pace. Asynchronous programming is another alternative. 
 
+Transformations were essential, as most of the data we were getting were time-series based, meaning each row represented an event or status of the player at a particular time. Then a grouping function is formed to aggregate all the kills and other events like warding, to be player-focused - each row would represent one player's summary. Anything above 10 minutes was removed, prior to this aggregation. 
+
+Psycopg2 was used to load the transformations into Postgres. It first made sure to see if the tables existed. If it didn't, then it would create the tables prior to loading it onto the database:
 <p align="center">
   <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/create_tables.png" width="600">
 </p>
+
 
 <p align="center">
   <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="600">
