@@ -60,7 +60,7 @@ Given that Riot Games has given access to their data through an API, we will mak
 </p>
 
 <p align="center">
-  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="500">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="600">
 </p>
 
 <p align="center">
