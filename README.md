@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL_Pipeline_for_Pro_Players_on_League_of_Legends_%F0%9F%8E%AE_.png" width="900">
+</p>
+
 # LeagueOfLegends_Pipeline
 This project aims to make a Data Pipeline, which tracks all the top streamers (or streamers currently online), and then uses their information to extract the features relating to the 1st 10 minutes of their last game to predict who will win. The scheduled automation and scripting process is all done using Airflow. Here is a quick recap of the architecture, data sourcing and storage, and specifics of the ML pipeline. 
 
@@ -40,10 +44,27 @@ AWS RDS is a service that helps to manage and store data into PostgreSQL, a data
 
 ## Data Sourcing and Storage
 Given that Riot Games has given access to their data through an API, we will make use of RiotWatcher to extract the 1st 10 minutes of games from all popular streamers from a particular website – Tracking the Pros. Within processes between Extract and Tranform in our ETL processes, we use temporary CSV files to send data to the next task on the Airflow DAG. Ultimately, the data is stored in these schema:
-
+<p align="center">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/schema.png" width="900">
+</p>
 
 ## ETL Pipeline
 
+<p align="center">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ETL.png" width="300">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/create_tables.png" width="300">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/ml_pipeline.png" width="300">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/ML_Pipeline_TwitchGamers/blob/main/images/curl_request.png" width="300">
+</p>
 
 
 
